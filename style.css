@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+
+}
+
+
+.form-group{
+    margin-bottom: 15px;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px;
+}
+button.delete{
+    background-color: #f44336;
+
+}
+button.edit{
+    background-color: #2196F3;
+
+}
+
+.item{
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.item-title{
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.item-text {
+    margin: 0 0 10px 0;
+    color: #666;
+}
