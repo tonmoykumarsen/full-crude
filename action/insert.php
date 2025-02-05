@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 // If someone tries to access this file directly without POST data
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+    $_SESSION['success'] = "Task added successfully!";   
     header("Location: ../pages/index.php");
     exit;
 }
